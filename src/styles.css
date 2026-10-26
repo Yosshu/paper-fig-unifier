@@ -168,17 +168,6 @@ a:hover {
   min-width: 180px;
 }
 
-.ext-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  min-height: 44px;
-  padding: 0 8px;
-  font-size: 13px;
-  font-weight: 500;
-  text-decoration: none;
-}
-
 /* Layout */
 .layout {
   display: flex;

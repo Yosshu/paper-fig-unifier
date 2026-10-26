@@ -1,6 +1,6 @@
 import { useMessages } from '../i18n'
 import type { Lang } from '../lib/settings'
-import { IconExternal, IconLock, Logo } from './icons'
+import { IconLock, Logo } from './icons'
 import { Segmented } from './Segmented'
 
 const LANGS = [
@@ -27,10 +27,6 @@ export function Header({ lang, onLang }: { lang: Lang; onLang: (lang: Lang) => v
         <div className="lang-switch">
           <Segmented label={t.languageLabel} options={LANGS} value={lang} onChange={onLang} />
         </div>
-        <a className="ext-link" href="https://github.com/yosshu/paper-fig-unifier" target="_blank" rel="noreferrer">
-          GitHub
-          <IconExternal />
-        </a>
       </div>
     </header>
   )
